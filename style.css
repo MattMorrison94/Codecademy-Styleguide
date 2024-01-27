@@ -142,10 +142,20 @@ header {
 }
 */ 
 
+
 .fonts-right h2 {
     margin: 10px;
 }
 
+.fonts {
+    width: 80%;
+    display: flex;
+}
+
+.text {
+    width: 50%;
+    display: flex;
+}
 .oswald {
     font-family: 'Oswald', sans-serif;
 }
