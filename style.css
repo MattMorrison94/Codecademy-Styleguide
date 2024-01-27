@@ -44,68 +44,56 @@ header {
 }
 
 .colors {
-    /* display: flex;
-    justify-content: */
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
     margin: 20px;
 }
 
-.deep-sky-blue {
-    display: flex;
-    height: 80px;
-    border: solid 1px #5CC8FF;
-    border-radius: 10px;
-    background-color: #5CC8FF;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
+/* GLOBAL STYLING FOR COLOR ELEMENTS */ 
 
-.cinereous {
-    display: flex;
-    height: 80px;
-    border: solid 1px #93867F;
-    border-radius: 10px;
-    background-color: #93867F;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-.black-olive {
-    display: flex;
-    height: 80px;
-    border: solid 1px #343633;
-    border-radius: 10px;
-    background-color: #343633;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-.amethyst {
-    display: flex;
-    height: 80px;
-    border: solid 1px #7d70ba;
-    border-radius: 10px;
-    background-color: #7d70ba;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
+.deep-sky-blue,
+.cinereous,
+.black-olive,
+.amethyst,
 .mauve {
     display: flex;
     height: 80px;
-    border: solid 1px #DEC1FF;
+    width: 60%;
     border-radius: 10px;
-    background-color: #DEC1FF;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin-bottom: 10px;
+}
+
+.deep-sky-blue {
+    border: solid 1px #5CC8FF;
+    background-color: #5CC8FF;
+}
+
+.cinereous {
+    border: solid 1px #93867F;
+    background-color: #93867F;
+}
+
+.black-olive {
+    border: solid 1px #343633;
+    background-color: #343633;
+    color: white;
+}
+
+.amethyst {
+    border: solid 1px #7D70BA;
+    background-color: #7D70BA;
+    color: white;
+}
+
+.mauve {
+    border: solid 1px #DEC1FF;
+    background-color: #DEC1FF;
 }
 
 .color-text {
