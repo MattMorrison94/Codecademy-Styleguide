@@ -28,6 +28,21 @@ header {
     align-items: center;
 }
 
+h1 {
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+}
+
+header h3 {
+    font-family: 'Indie Flower', cursive;
+    font-weight: 700;
+    letter-spacing: .5px;
+}
+
+h2 {
+    font-family: 'Oswald', sans-serif;
+}
+
 .header-content {
     text-align: center;
 }
@@ -43,7 +58,7 @@ header {
 
 .color-fonts-container {
     padding-top: 10px;
-    height: 650px;
+    height: 800px;
     width: 100%;
     display: flex;
     /* Remove After testing */
@@ -54,7 +69,7 @@ header {
 
 .color-left {
     border: solid 1px black;
-    height: 600px;
+    height: 700px;
     width: 50%;
     margin-left: 10px;
     margin-right: 10px;
@@ -69,6 +84,7 @@ header {
     justify-content: center;
     align-items: center;
     margin: 20px;
+    padding-top: 25px
 }
 
 /* GLOBAL STYLING FOR COLOR ELEMENTS */ 
@@ -79,7 +95,7 @@ header {
 .amethyst,
 .mauve {
     display: flex;
-    height: 80px;
+    height: 100px;
     width: 60%;
     border-radius: 10px;
     display: flex;
@@ -121,41 +137,57 @@ header {
     font-size: 18px;
 }
 
-/* FONTS SECTION */ 
+/* *********    FONTS SECTION     ********** */ 
 
 /* FONT CONTAINER */ 
 .fonts-right {
     border: solid 1px black;
-    height: 600px;
+    height: 700px;
     width: 50%;
     margin-right: 10px;
-    margin-left: 10px
+    margin-left: 10px; 
+    overflow: scroll;
 }
-
-/* 
-.fonts {
-    display: flex;
-    flex-direction:column;
-    justify-content: center;
-    align-items: center;
-    margin: 20px;
-}
-*/ 
 
 
 .fonts-right h2 {
     margin: 10px;
 }
+.fonts-subc {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: flex-start;
+}
 
 .fonts {
+    padding-left: 30px;
     width: 80%;
     display: flex;
+    justify-content: space-around; 
 }
 
 .text {
-    width: 50%;
+    width: 100%;
     display: flex;
+    flex-direction: column; 
+    margin-bottom: 10px;
 }
+
+.font-one,
+.font-two,
+.font-three {
+    padding-left: 10px;
+}
+
+/* Apply the font styles to the text content */
+.oswald,
+.caveat,
+.indie {
+    margin-top: 10px; 
+    letter-spacing: 1px;
+}
+
 .oswald {
     font-family: 'Oswald', sans-serif;
 }
@@ -168,9 +200,11 @@ header {
     font-family: 'Indie Flower', cursive, sans-serif;
 }
 
+.italic {
+    font-style: italic;
+    font-weight: 500;
+}
 
-.button-container {
-    height: 300px;
-    /* Temporary Border Below */
-    border: solid .5px black;
+.bold {
+    font-weight: bold;
 }
