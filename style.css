@@ -1,6 +1,15 @@
+/* Font Family Referece 
+
+font-family: 'Caveat', cursive;
+font-family: 'Indie Flower', cursive;
+font-family: 'Oswald', sans-serif;
+
+*/
+
 * {
     margin: 0;
     padding: 0;
+    /*border: solid; dont forget to delete!!!! */
 }
 
 /* attempted background color scheme */
@@ -32,24 +41,28 @@ header {
     font-size: 1.3rem;
 }
 
-/*   COLORS SECTION */
-
 .color-fonts-container {
     padding-top: 10px;
-    height: 600px;
+    height: 650px;
     width: 100%;
     display: flex;
+    /* Remove After testing */
+    border-bottom: solid;
 }
+
+/* COLOR CONTAINER */
 
 .color-left {
     border: solid 1px black;
-    height: 540px;
+    height: 600px;
     width: 50%;
     margin-left: 10px;
     margin-right: 10px;
-
 }
 
+.color-left h2 {
+    margin: 10px;
+}
 .colors {
     display: flex;
     flex-direction:column;
@@ -110,10 +123,44 @@ header {
 
 /* FONTS SECTION */ 
 
+/* FONT CONTAINER */ 
 .fonts-right {
     border: solid 1px black;
-    height: 500px;
+    height: 600px;
     width: 50%;
     margin-right: 10px;
     margin-left: 10px
+}
+
+/* 
+.fonts {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+*/ 
+
+.fonts-right h2 {
+    margin: 10px;
+}
+
+.oswald {
+    font-family: 'Oswald', sans-serif;
+}
+
+.caveat {
+    font-family: 'Caveat', cursive, sans-serif;
+}
+
+.indie {
+    font-family: 'Indie Flower', cursive, sans-serif;
+}
+
+
+.button-container {
+    height: 300px;
+    /* Temporary Border Below */
+    border: solid .5px black;
 }
