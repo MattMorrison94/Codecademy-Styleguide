@@ -3,6 +3,13 @@
     padding: 0;
 }
 
+/* attempted background color scheme */
+/*
+body {
+    background: linear-gradient(to bottom, #9c9b98, #b3b2ae, #c9c8c5, #dcdad6, #f0eee9 );
+}
+*/
+
 header {
     height: 120px;
     width: 100%;
@@ -36,7 +43,7 @@ header {
 
 .color-left {
     border: solid 1px black;
-    height: 500px;
+    height: 540px;
     width: 50%;
     margin-left: 10px;
     margin-right: 10px;
@@ -89,6 +96,7 @@ header {
     border: solid 1px #7D70BA;
     background-color: #7D70BA;
     color: white;
+    margin: 10px;
 }
 
 .mauve {
